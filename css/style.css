@@ -1,0 +1,42 @@
+body {
+    background: repeating-linear-gradient(45deg, #ff00ff, #00ffff 10px);
+    animation: spinbg 10s linear infinite;
+}
+
+@keyframes spinbg {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+}
+
+button {
+    border: 5px dashed limegreen;
+    transform: rotate(5deg);
+    box-shadow: 0 0 20px red;
+    font-family: "Comic Sans MS", cursive;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: rotate(360deg) scale(1.2);
+    background: radial-gradient(circle, yellow, orange);
+    color: black;
+}
+
+input {
+    border: 3px dotted hotpink;
+    background-color: rgba(255, 255, 0, 0.2);
+    font-size: 1.3rem;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 5px #ff0000, -2px -2px 5px #0000ff;
+    animation: wiggle 0.5s infinite alternate;
+}
+
+@keyframes wiggle {
+    from { transform: rotate(-2deg); }
+    to { transform: rotate(2deg); }
+}

@@ -1,0 +1,17 @@
+dokter
+email : dokter@gmail.com
+pw: 123
+
+Admin
+email : admin@gmail.com
+pw: 123
+
+resepsionis
+email: resepsionis@gmail.com
+pw:123
+
+pasien
+email:pasien@gmail.com
+pw:123
+
+selebihnya pasien register aja 
